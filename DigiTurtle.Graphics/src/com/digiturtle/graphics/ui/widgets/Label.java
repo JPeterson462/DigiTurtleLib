@@ -28,10 +28,20 @@ public class Label extends Widget {
 	private TextAlign align;
 	
 	private Pattern iconReplacementRegex;
+	
+	private boolean visible = true;
 
 	public Label(String id) {
 		super(id);
 		iconReplacementRegex = Pattern.compile("(icon:[A-Za-z-]+)");
+	}
+	
+	public void setVisible(boolean visible) {
+		this.visible = visible;
+	}
+	
+	public boolean isVisible() {
+		return visible;
 	}
 	
 	public void setFont(String fontFace, int fontSize) {
@@ -61,6 +71,9 @@ public class Label extends Widget {
 
 	@Override
 	public boolean processInput(InputEvent event) {
+		if (!visible) {
+			return false;
+		}
 		setHovered(event.containedIn(getBounds()));
 		return false;
 	}
@@ -81,6 +94,9 @@ public class Label extends Widget {
 
 	@Override
 	public void render(Camera camera, RenderingContext context) {
+		if (!visible) {
+			return;
+		}
 		Font font = Font.findFont(fontFace);
 		font.tryCreate(context);
 		String bindingValue = getModelValue();
