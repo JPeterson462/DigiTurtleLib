@@ -12,6 +12,51 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/DigiTurtleLib/lib/joml-1.9.25.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/DigiTurtleLib/lib/json-20200518.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/DigiTurtleLib/lib/lwjgl.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/DigiTurtleLib/lib/lwjgl-glfw.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/DigiTurtleLib/lib/lwjgl-nanovg.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/DigiTurtleLib/lib/lwjgl-openal.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/DigiTurtleLib/lib/lwjgl-opengl.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/DigiTurtleLib/lib/lwjgl-stb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/DigiTurtleLib/lib/mssql-jdbc-8.2.2.jre8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -62,5 +107,10 @@
 	<classpathentry kind="lib" path="/Users/jpeterson/git/DigiTurtleLib/lib/natives/lwjgl-stb-natives-macos.jar"/>
 	<classpathentry kind="lib" path="/Users/jpeterson/git/DigiTurtleLib/lib/natives/lwjgl-stb-natives-windows-x86.jar"/>
 	<classpathentry kind="lib" path="/Users/jpeterson/git/DigiTurtleLib/lib/natives/lwjgl-stb-natives-windows.jar"/>
+	<classpathentry kind="src" path="/DigiTurtle.Core">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
