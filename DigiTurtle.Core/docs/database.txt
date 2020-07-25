@@ -1,0 +1,6 @@
+Connection string: Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
+Instance name: SQLEXPRESS
+Administrators: DESKTOP-TB6KJGO\jpete
+Server-Local: DESKTOP-TB6KJGO\SQLEXPRESS
+
+sa -> Celestial.py
